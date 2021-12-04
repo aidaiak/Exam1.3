@@ -15,7 +15,9 @@ class Fragment2 : Fragment(R.layout.fragment2) {
         name = view.findViewById(R.id.txt_name)
         phone = view.findViewById(R.id.txt_phone)
 
+        val contact = requireArguments().getParcelable<Contact>("KEY")
 
-
+        name.text = contact?.name
+        phone.text = contact?.phone
     }
 }
