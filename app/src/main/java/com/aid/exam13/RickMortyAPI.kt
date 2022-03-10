@@ -10,6 +10,6 @@ interface RickMortyAPI {
     fun getCharacters(): Observable<CharResult>
 
     @GET("character/{id}")
-    fun getCharacters(@Path("id") id: Long): Observable<Item>
+    fun getCharacter(@Path("id") id: Long): Observable<Item>
 
 }

@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.aid.exam13.database.Character
 import com.aid.exam13.databinding.ItemCharacterslistBinding
 import com.bumptech.glide.Glide
 
