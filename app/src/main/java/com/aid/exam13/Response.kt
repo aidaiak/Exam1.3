@@ -20,5 +20,3 @@ data class Location(
     val name: String,
     val url: String
 )
-
-data class Owner(val login: String?, val id: Long?, val avatarUrl: String?)
